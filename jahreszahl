@@ -1,0 +1,27 @@
+public class IfElseSwitch {
+
+	public static void main(String[] args) {
+	
+		}
+	/*
+	 * Es wird eine Methode mit dem Namen isLeapYear deklariert,
+	 * welcher der Zahlenwert year übergeben wird.
+	 * Zuerst wird ueberprueft ob das uebergebe Jahr zwischen 1590 und 2090 liegt
+	 * Dann wird ueberprueft ob das Jahr durch 4 teilbar ist und entsprechend der Wahrheitswert zugewiesen. 
+	 */
+	 
+	public static void isLeapYear (int year){
+		boolean leapyear;
+		if (year < 1590 && year > 2090) {
+			leapyear = false;
+		}
+		else if (year % 4 == 0) {
+			leapyear = true;
+		}
+		else leapyear = false;
+		
+		System.out.println(leapyear);
+		
+	}
+
+}
