@@ -1,0 +1,47 @@
+public static void compare3numbers(int firstNumber, int secondNumber,
+			int thirdNumber) { 
+		
+// Es wird überprüft ob alle Werte gleich sind
+		if ((firstNumber == secondNumber) && (secondNumber == thirdNumber)) {
+			System.out.println("Alle angegebenen Werte sind wertgleich");
+			return;
+
+		}
+//Es wird überprüft, ob jeweils nur zwei Zahlen gleich sind und ob die dritte kleiner oder größer ist.
+		if ((firstNumber == secondNumber) && (firstNumber < thirdNumber)) {
+			System.out.println(firstNumber + " und " + secondNumber
+					+ " sind gleich groß, wobei " + thirdNumber
+					+ " die größte von den Dreien ist.");
+		}
+
+		if ((firstNumber == secondNumber) && (firstNumber > thirdNumber)) {
+			System.out.println(firstNumber + " und " + secondNumber
+					+ " sind gleich groß, wobei " + thirdNumber
+					+ " die kleinste von den Dreien ist.");
+		}
+
+		if ((secondNumber == thirdNumber) && (secondNumber < firstNumber)) {
+			System.out.println(secondNumber + " und " + thirdNumber
+					+ " sind gleich groß, wobei " + firstNumber
+					+ " die größte von den Dreien ist.");
+		}
+
+		if ((secondNumber == thirdNumber) && (secondNumber > firstNumber)) {
+			System.out.println(secondNumber + " und " + thirdNumber
+					+ " sind gleich groß, wobei " + firstNumber
+					+ " die kleinste von den Dreien ist.");
+		}
+
+		if ((thirdNumber == firstNumber) && (thirdNumber < secondNumber)) {
+			System.out.println(thirdNumber + " und " + firstNumber
+					+ " sind gleich groß, wobei " + secondNumber
+					+ " die größte von den Dreien ist.");
+		}
+
+		if ((thirdNumber == firstNumber) && (thirdNumber > secondNumber)) { 
+			System.out.println(thirdNumber + " und " + firstNumber
+					+ " sind gleich groß, wobei " + secondNumber
+					+ " die kleinste von den Dreien ist.");
+		}
+
+	}
