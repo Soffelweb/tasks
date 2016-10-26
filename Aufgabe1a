@@ -1,0 +1,17 @@
+public class Aufgabe1a {
+	public static void main(String[] args) {
+
+		System.out.println("Hello World!");
+		System.out.println("This is my first Java program.");
+
+		String hello = "Hello World";
+		String first = "This is my first Java Program";
+
+		System.out.println("");
+		System.out.println(hello);
+		System.out.println(first);
+		
+
+	}
+
+}
